@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './Contacts.module.css';
-import TG from '../../img/tg.png';
-import YOUTUBE from '../../img/youtube.png';
-import INST from '../../img/inst.png';
-import TEL from '../../img/tel.png';
+import TG from '../../img/tg1.png';
+import YOUTUBE from '../../img/youtube1.png';
+import INST from '../../img/inst1.png';
+import TEL from '../../img/tel1.png';
 import DROM from '../../img/drom.png';
 import AVITO from '../../img/avito.png';
+import WA from '../../img/wa.png';
 const Contacts = () => {
     const socials = [
 
@@ -23,7 +24,7 @@ const Contacts = () => {
         },
         {
             id: 4,
-            name: 'Перейти в Instagram',
+            name: 'Перейти в Instagram(запрещен в РФ)',
             icon: INST,
             link: 'https://instagram.com/auto.hub139?igshid=MzRlODBiNWFlZA=='
         }];
@@ -52,7 +53,8 @@ const Contacts = () => {
                     </a>
                 </div>
                 <div className={styles.tel}>
-                   <div className={styles.telImg}><img src={TEL} /> </div> <a href="tel:+79050802222" className={styles.telLink}> +7 905 080 22 22</a>
+                    <a href="tel:+79050802222" className={styles.telLink}> <img className={styles.telImg} src={TEL} /> </a>
+                    <a href="https://wa.me/79050802222?text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82!%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82..." className={styles.telLink}> <img className={styles.telImg} src={WA} /> </a>
                 </div>
             </div>
         </section>
