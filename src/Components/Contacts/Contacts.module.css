@@ -1,0 +1,106 @@
+.contacts {
+    margin-bottom: 3.6rem;
+}
+.inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;*/
+    gap: 5rem;
+    align-self: center;
+    justify-items: center;
+    /*margin-top: rem;*/
+    /*margin-bottom: 3rem;*/
+    padding: 2rem 15rem;
+}
+.social a{
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    border: 7px solid #000;
+    padding: 1.5rem;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+.social a:hover{
+    border: 7px solid #a0060c;
+    background: #a0060c;
+
+ }
+.link img:hover{
+    filter: invert(1);
+    transition: all 0.3s ease;
+}
+.link img{
+    width: 7rem;
+    text-align: center;
+}
+
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.telLink{
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+    transition: all .5s ease ;
+}
+.telLink:hover{
+    color: #a0060c;
+}
+.telImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #a0060c;
+    background: #a0060c;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-right: 1.5rem;
+}
+.telImg img{
+    width: 2rem;
+filter: invert(1);
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column;*/
+    margin-bottom: 3rem;
+    margin-top: 10rem;
+}
+.linkPlace{
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    color: #000;
+transition: all .3s ease;
+}
+.linkPlace:hover{
+    color: #a0060c;
+}
+.linkPlace img{
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 460px){
+    html{
+        font-size: 8px;
+    }
+.inner{
+    padding: 0;
+}
+.tel{
+    margin-top: 60px;
+}
+}

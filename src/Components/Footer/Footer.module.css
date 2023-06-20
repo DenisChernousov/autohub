@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.points {
+    display: flex;
+    margin-left: 6.3rem;
+    margin-bottom: 1rem;
+}
+
+.pointInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-right: 66px;
+    margin-bottom: 50px;
+    padding-left: 0.5rem;
+}
+
+.point {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #5C5C5B;
+    border-radius: 100%;
+}
+.img{
+    max-width: 100%;
+}

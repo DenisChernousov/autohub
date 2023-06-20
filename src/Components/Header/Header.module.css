@@ -1,0 +1,56 @@
+.topImg{
+    max-width: 100%;
+    width: 14rem;
+}
+.logoInner{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 32.5rem;
+    margin-top: 1.7rem;
+    margin-bottom: 4.8rem;
+}
+.pointsInner{
+    padding-left: 6.3rem;
+}
+.points{
+    display: flex;
+    margin-left: 6.3rem;
+    margin-bottom: 1rem;
+}
+.pointsBottom{
+    display: flex;
+}
+.point{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: #5C5C5B;
+    border-radius: 100%;
+
+}
+.point + .point {
+    margin-left: 1.1rem;
+}
+.imgBox img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 460px){
+    html{
+        font-size: 8px;
+    }
+    .pointsInner {
+        padding-left: 3.3rem;
+    }
+.logo{
+    width: 20rem;
+}
+    .point + .point {
+        margin-left: 0.7rem;
+    }
+    .points{
+        margin-left: 3.3rem;
+    }
+}
